@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
 }
+.container-fluid {
+    background-color: #d8fd94;
+    margin-top: -1vh;
+    border-top: 5px solid #384c03;
+    border-bottom: 5px solid #384c03;
+}
 
 #navbarNav {
     font-size: 20px;
@@ -9,10 +15,27 @@
 }
 
 .navbar-nav a:hover {
-    color: #c9df8a;
+    color: #384c03;
     text-decoration: underline;
 }
 
 .navbar-nav a {
     margin-right: 30px;
+}
+
+.logoGramar {
+    width: 200px;
+    margin-left: 50px;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+}
+
+.d-block {
+    margin: auto;
+    text-align: center;
+    
+}
+
+button {
+    color: black;
 }
