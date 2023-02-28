@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    background-color: #d8fd94;
+    margin-top: -1vh;
+    border-top: 5px solid #384c03;
+    border-bottom: 5px solid #384c03;
+}
+
+#navbarNav {
+    font-size: 20px;
+    justify-content: center;
+    a {
+        margin-right: 30px;
+    }
+    a:hover {
+        color: #324402;
+        text-decoration: underline;
+    }
+}
+
+.logoGramar {
+    width: 200px;
+    margin-left: 50px;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+}
