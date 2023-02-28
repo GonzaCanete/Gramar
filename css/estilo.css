@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbarNav {
+    font-size: 20px;
+    justify-content: center;
+}
+
+.navbar-nav a:hover {
+    color: #c9df8a;
+    text-decoration: underline;
+}
+
+.navbar-nav a {
+    margin-right: 30px;
+}
