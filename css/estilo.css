@@ -29,4 +29,29 @@
   image-rendering: crisp-edges;
 }
 
+.grid_container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid_container img {
+  width: 50%;
+  height: 50%;
+}
+
+.end_footer {
+  width: 100vw;
+  height: 10vh;
+  background-color: #324402;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.end_footer img {
+  width: 5vw;
+  opacity: 0.1;
+}
+
 /*# sourceMappingURL=estilo.css.map */
