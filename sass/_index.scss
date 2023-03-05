@@ -28,3 +28,39 @@
     image-rendering: auto;
     image-rendering: crisp-edges;
 }
+
+.grid_container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+     grid-template-areas: 
+     "asideLeft main asideRight";
+    column-gap: 1vw;
+}
+
+.aside#asideLeft {
+    grid-area: asideLeft;
+}
+.aside#asideRight {
+    grid-area: asideRight;
+}
+.mainColumn#main  {
+    grid-area: main ;
+    
+    height: 100vh;
+    
+}
+
+.card_container {
+    height: 100vh;
+    display: flex;
+}
+
+.card {
+    width: 40%;
+    height: 30%;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+    margin: 5vw;
+  }
