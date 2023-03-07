@@ -1,41 +1,86 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
+
+header {
+  position: sticky;
+  top: 0;
+}
+
 .container-fluid {
-    background-color: #d8fd94;
-    margin-top: -1vh;
-    border-top: 5px solid #384c03;
-    border-bottom: 5px solid #384c03;
+  background-color: #597901;
+  margin-top: -1vh;
+  border-top: 5px solid #597901;
+  border-bottom: 5px solid #597901;
 }
 
 #navbarNav {
-    font-size: 20px;
-    justify-content: center;
+  font-size: 20px;
+  justify-content: center;
 }
-
-.navbar-nav a:hover {
-    color: #384c03;
-    text-decoration: underline;
+#navbarNav a {
+  margin-right: 30px;
+  color: black;
+  font-size: 30px;
 }
-
-.navbar-nav a {
-    margin-right: 30px;
+#navbarNav a:hover {
+  color: white;
+  text-decoration: underline;
 }
 
 .logoGramar {
-    width: 200px;
-    margin-left: 50px;
-    image-rendering: auto;
-    image-rendering: crisp-edges;
+  width: 200px;
+  margin-left: 50px;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
 }
 
-.d-block {
-    margin: auto;
-    text-align: center;
-    
+.grid_container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-areas: "asideLeft main asideRight";
+  column-gap: 1vw;
 }
 
-button {
-    color: black;
+.aside#asideLeft {
+  grid-area: asideLeft;
 }
+
+.aside#asideRight {
+  grid-area: asideRight;
+}
+
+.mainColumn#main {
+  grid-area: main;
+  border-radius: 20px;
+  background-color: rgba(219, 218, 218, 0.9647058824);
+}
+
+footer {
+  height: 40vh;
+  background-color: #597901;
+  padding: 5px;
+}
+footer .map_iframe {
+  width: 20%;
+  height: 20vh;
+  margin: 10px;
+  margin-right: 20px;
+}
+footer .iframe_container {
+  text-align: center;
+}
+footer .info {
+  text-align: center;
+}
+footer .info h2 {
+  margin-top: 20px;
+  font-size: 15px;
+}
+footer .info h2:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=estilo.css.map */
