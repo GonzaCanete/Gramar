@@ -2,22 +2,29 @@
     margin: 0;
     padding: 0;
 }
-
+header {
+    position: sticky;
+    top: 0;
+}
 .container-fluid {
-    background-color: #d8fd94;
+    background-color: #597901;
     margin-top: -1vh;
-    border-top: 5px solid #384c03;
-    border-bottom: 5px solid #384c03;
+    border-top: 5px solid #597901;
+    border-bottom: 5px solid #597901;
+    
 }
 
 #navbarNav {
     font-size: 20px;
     justify-content: center;
+    
     a {
         margin-right: 30px;
+        color: black;
+        font-size: 30px;
     }
     a:hover {
-        color: #324402;
+        color: white;
         text-decoration: underline;
     }
 }
@@ -45,22 +52,32 @@
 }
 .mainColumn#main  {
     grid-area: main ;
-    
-    height: 100vh;
-    
+    border-radius: 20px;
+    background-color: #dbdadaf6;
 }
 
-.card_container {
-    height: 100vh;
-    display: flex;
-}
-
-.card {
-    width: 40%;
-    height: 30%;
-    border-radius: 30px;
-    background: #e0e0e0;
-    box-shadow: 15px 15px 30px #bebebe,
-               -15px -15px 30px #ffffff;
-    margin: 5vw;
+  footer {
+    height: 40vh;
+    background-color: #597901;
+    padding: 5px;
+    .map_iframe {
+        width: 20%;
+        height: 20vh;
+        margin: 10px;
+        margin-right: 20px;
+    }
+    .iframe_container {
+        text-align: center;
+    }
+    .info {
+        text-align: center;
+        h2{
+            margin-top: 20px;
+            font-size: 15px;
+        }
+        h2:hover{
+            color: #ffffff;
+            text-decoration: underline;
+        }
+    }
   }
