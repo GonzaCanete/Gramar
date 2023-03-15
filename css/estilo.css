@@ -78,4 +78,24 @@
   background-image: linear-gradient(rgb(28, 70, 28), rgba(32, 165, 32, 0.685));
 }
 
+footer {
+  width: 100vw;
+  height: 30vh;
+  background-color: black;
+  background-image: linear-gradient(rgba(32, 165, 32, 0.685), rgb(28, 70, 28));
+}
+footer .info_container {
+  display: inline;
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+footer .info_container h3:hover {
+  text-decoration: underline;
+}
+footer .info_container h3 #icon {
+  margin-right: 1vw;
+}
+
 /*# sourceMappingURL=estilo.css.map */
