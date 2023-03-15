@@ -91,17 +91,18 @@
 footer {
     width: 100vw;
     height: 30vh;
-    background-color: black;
+    background-color: rgb(22, 22, 22);
     background-image: linear-gradient(rgba(32, 165, 32, 0.685), rgb(28, 70, 28)) ;
     .info_container {
         display: inline;
         margin: auto;
         text-align: center;
-        color: white;
+        color: rgb(250, 250, 250);
         font-size: 20px;
-        // text-shadow: 5px 5px rgba(0, 0, 0, 0.365);
+        
         h3:hover {
             text-decoration: underline;
+            
         }
         h3 {
             #icon{
