@@ -26,15 +26,11 @@
   text-decoration: underline 2px solid white;
 }
 
-.logoContainer {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-bottom: 2vh;
-}
-.logoContainer #logos {
-  height: 10vh;
+#logos {
+  height: 20vh;
+  display: block;
+  margin: auto;
+  margin-bottom: 10vh;
 }
 
 .grid_container {
@@ -45,7 +41,12 @@
 }
 
 #asideLeft {
+  margin-top: -2vh;
   grid-area: left;
+}
+#asideLeft img {
+  height: 100vh;
+  background-image: linear-gradient(rgb(28, 70, 28), rgba(32, 165, 32, 0.685));
 }
 
 #main {
@@ -54,24 +55,27 @@
 }
 #main .first {
   margin-top: 10vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  height: 30vh;
 }
 #main .first p {
   font-size: 20px;
   text-align: center;
   font-family: "Roboto", sans-serif;
+  text-shadow: 0px 5px rgba(226, 226, 226, 0.442);
 }
 #main .first img {
-  width: 60%;
-  height: 40%;
+  width: 80%;
+  height: 80%;
+  display: block;
+  margin: auto;
   border-radius: 30px;
   box-shadow: 20px 20px rgba(199, 198, 198, 0.247);
 }
 
 #asideRight {
+  margin-top: -2vh;
   grid-area: right;
+  background-image: linear-gradient(rgb(28, 70, 28), rgba(32, 165, 32, 0.685));
 }
 
 /*# sourceMappingURL=estilo.css.map */
