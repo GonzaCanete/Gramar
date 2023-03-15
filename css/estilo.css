@@ -3,84 +3,75 @@
   padding: 0;
 }
 
-header {
-  position: sticky;
-  top: 0;
-}
-
-.container-fluid {
-  background-color: #597901;
-  margin-top: -1vh;
-  border-top: 5px solid #597901;
-  border-bottom: 5px solid #597901;
-}
-
-#navbarNav {
-  font-size: 20px;
+.img_nav_container {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
   justify-content: center;
-}
-#navbarNav a {
+  align-items: center;
+  background-image: linear-gradient(rgba(32, 165, 32, 0.685), rgb(28, 70, 28));
   margin-right: 30px;
-  color: black;
-  font-size: 30px;
 }
-#navbarNav a:hover {
+.img_nav_container img {
+  margin-right: 100px;
+  width: 10vw;
+}
+.img_nav_container a {
+  margin-right: 35px;
+  text-decoration: none;
   color: white;
-  text-decoration: underline;
+  font-size: 20px;
+}
+.img_nav_container a:hover {
+  text-decoration: underline 2px solid white;
 }
 
-.logoGramar {
-  width: 200px;
-  margin-left: 50px;
-  image-rendering: auto;
-  image-rendering: crisp-edges;
+.logoContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 2vh;
+}
+.logoContainer #logos {
+  height: 10vh;
 }
 
 .grid_container {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
-  grid-template-areas: "asideLeft main asideRight";
-  column-gap: 1vw;
+  grid-template-areas: "left center right";
+  margin-top: 2vh;
 }
 
-.aside#asideLeft {
-  grid-area: asideLeft;
+#asideLeft {
+  grid-area: left;
 }
 
-.aside#asideRight {
-  grid-area: asideRight;
-}
-
-.mainColumn#main {
-  grid-area: main;
+#main {
+  grid-area: center;
   border-radius: 20px;
-  background-color: rgba(219, 218, 218, 0.9647058824);
+}
+#main .first {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#main .first p {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+#main .first img {
+  width: 60%;
+  height: 40%;
+  border-radius: 30px;
+  box-shadow: 20px 20px rgba(199, 198, 198, 0.247);
 }
 
-footer {
-  height: 40vh;
-  background-color: #597901;
-  padding: 5px;
-}
-footer .map_iframe {
-  width: 20%;
-  height: 20vh;
-  margin: 10px;
-  margin-right: 20px;
-}
-footer .iframe_container {
-  text-align: center;
-}
-footer .info {
-  text-align: center;
-}
-footer .info h2 {
-  margin-top: 20px;
-  font-size: 15px;
-}
-footer .info h2:hover {
-  color: #ffffff;
-  text-decoration: underline;
+#asideRight {
+  grid-area: right;
 }
 
 /*# sourceMappingURL=estilo.css.map */
