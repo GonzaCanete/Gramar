@@ -16,45 +16,30 @@
 </head>
 <body>
     <header>
-        <nav>
-          <div class="img_nav_container">
-            <img src="./img/logoGramar.png" alt="logo gramar">
-            <a href="#">Inicio</a>
-            <a href="#">Productos</a>
-            <a href="#">Contacto</a>
+      <nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"><img src="./img/logoGramar.png" alt="logo Gramar" id="logoGramar"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/fotocopiadoras.html" id="nav_link">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/nosotros.html" id="nav_link">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./pages/contacto.html" id="nav_link">Contacto</a>
+                </li>
+              </ul>
+            </div>
           </div>
-          
         </nav>
+      </nav>
     </header>
-    <main>
-        <section class="grid_container">
-            <div class="aside" id="asideLeft">
-              <img src="./img/plantilla-empresa.png" alt="plantilla">
-            </div>
-            <div class="mainColumn" id="main">
-              
-                <div class="first">
-                <p>Gramar es una empresa de servicios con más de 20 años de antigüedad en el mercado. Siempre hemos tenido claro lo gratificante que resulta atender bien al cliente. Todo esto nos ha llevado a ser respetados por los competidores y que nuestros clientes sigan confiando plenamente en nuestra selección de productos. Gramar es una empresa totalmente preparada para dar Soluciones de Impresión y Gestión Documental.</p>
-                <img src="./img/ba02.png" alt="imagen">
-              </div>
-              </div>
-            <div class="aside" id="asideRight">
-  
-                <img src="./img/logo-Brother.png" alt="logos" id="logos">
-                <img src="./img/logo-Sharp.png" alt="" id="logos">
-                <img src="./img/Logo_Konica_Minolta.svg" alt="" id="logos">
-              
-            </div>
-        </section>
-    </main>
-    <footer>
-      <div class="info_container">
-        <h3><ion-icon name="compass-outline" id="icon"></ion-icon>Direccion: Vazquez 1589</h3>
-        <h3><ion-icon name="call-outline" id="icon"></ion-icon>Tel-Fax: 2408 7001</h3>
-        <h3><ion-icon name="logo-whatsapp" id="icon"></ion-icon>Whatsapp: 099 915 844</h3>
-        <h3><ion-icon name="mail-outline" id="icon"></ion-icon>E-mail: gramar@adinet.com.uy</h3>
-      </div>
-    </footer>
     <!-- Ionicons -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
