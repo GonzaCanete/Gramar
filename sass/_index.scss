@@ -41,3 +41,21 @@ header {
     width: 100vw;
     height: 60vh;
 }
+#indicator  {
+    color: black;
+    background-color: black;
+}
+
+#prev :hover {
+    background-color: black;
+    opacity: 0.8;
+    height: 10%;
+    width: 20%;
+}
+
+#next :hover {
+    background-color: black;
+    opacity: 0.8;
+    height: 10%;
+    width: 20%;
+}
