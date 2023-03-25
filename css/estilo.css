@@ -10,13 +10,17 @@ header {
   z-index: 1;
 }
 
+#nav {
+  height: 20vh;
+}
+
 .container-fluid {
   display: inline;
   margin: auto;
 }
 .container-fluid img {
-  margin-left: 10vw;
-  width: 8vw;
+  margin-left: 15vw;
+  width: 20vw;
   image-rendering: optimizeQuality;
 }
 .container-fluid img:hover {
@@ -31,7 +35,7 @@ header {
 }
 #navbarNav #nav_link {
   margin-right: 2vw;
-  font-size: 20px;
+  font-size: 30px;
   text-decoration: underline 1px solid green;
   font-family: "Roboto", sans-serif;
 }
@@ -41,7 +45,7 @@ header {
 
 #img_carousel {
   width: 100vw;
-  height: 60vh;
+  height: 80vh;
 }
 
 #indicator {
@@ -61,6 +65,51 @@ header {
   opacity: 0.8;
   height: 10%;
   width: 20%;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-areas: "left center right";
+}
+
+#left {
+  grid-area: left;
+}
+
+#center {
+  grid-area: center;
+}
+
+#right {
+  grid-area: right;
+}
+
+.data_container {
+  width: 100%;
+  height: 50%;
+  margin-top: 10vh;
+  border-radius: 15px;
+}
+.data_container .data_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5vw;
+  background-color: rgba(226, 226, 226, 0.685);
+  border-radius: 15px;
+}
+.data_container img {
+  width: 50vw;
+  height: 30vh;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 15px 15px rgba(194, 194, 194, 0.322);
+}
+.data_container p {
+  font-size: 25px;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
 }
 
 /*# sourceMappingURL=estilo.css.map */
