@@ -104,6 +104,7 @@ section {
   gap: 5vw;
   background-color: rgba(226, 226, 226, 0.685);
   border-radius: 15px;
+  padding: 10px;
 }
 .data_container img {
   width: 50vw;
@@ -217,6 +218,10 @@ h2:hover {
 .card_container .card a {
   text-decoration: none;
 }
+.card_container .card .card-body:hover {
+  background-color: rgba(207, 207, 207, 0.596);
+  transform: all 1s;
+}
 
 .footer_container {
   margin-top: 10vh;
@@ -268,6 +273,37 @@ h2:hover {
 #text {
   font-size: 20px;
   font-family: "Roboto", sans-serif;
+}
+
+.nosotros {
+  background-color: rgb(128, 194, 30);
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nosotros h2 {
+  font-size: 60px;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+.nosotros h2:hover {
+  transform: scale(1.5, 1.5);
+  transition: transform 1s;
+}
+
+.p_container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+.p_container p {
+  margin-top: 2vh;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  background-color: rgba(135, 185, 135, 0.726);
+  border-radius: 5px;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=estilo.css.map */

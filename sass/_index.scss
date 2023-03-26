@@ -98,6 +98,7 @@ section {
         gap: 5vw;
         background-color: rgba(226, 226, 226, 0.685);
         border-radius: 15px;
+        padding: 10px;
     }
     img {
         width: 50vw;
@@ -208,6 +209,10 @@ h2:hover {
         }
         a {
             text-decoration: none;
+        }
+        .card-body:hover{
+            background-color: rgba(207, 207, 207, 0.596);
+            transform: all 1s;
         }
     }
 }
