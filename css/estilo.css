@@ -11,7 +11,7 @@ header {
 }
 
 #nav {
-  height: 20vh;
+  height: 17vh;
 }
 
 .container-fluid {
@@ -22,6 +22,8 @@ header {
   margin-left: 15vw;
   width: 20vw;
   image-rendering: optimizeQuality;
+  height: 100%;
+  margin-top: -1.2vh;
 }
 .container-fluid img:hover {
   transform: scale(1.1, 1.1);
@@ -116,12 +118,18 @@ section {
   font-weight: 300;
 }
 
+.contact {
+  margin: auto;
+  background-color: rgba(113, 126, 109, 0.527);
+  border-radius: 15px;
+}
+
 .contact_container {
-  margin-top: 15vh;
+  margin-top: 5vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10vw;
+  gap: 15vw;
 }
 .contact_container .left_contact {
   text-align: center;
@@ -129,7 +137,6 @@ section {
   height: 30vh;
   background-color: rgba(180, 180, 180, 0.493);
   border-radius: 15px;
-  margin-left: 5vw;
   padding: 25px;
 }
 .contact_container .left_contact ul, .contact_container .left_contact li {
@@ -238,6 +245,29 @@ h2:hover {
 .footer_container #icon {
   width: 40px;
   height: 40px;
+}
+
+#row {
+  margin-top: 2vh;
+  margin-right: 1vw;
+}
+
+#mensaje {
+  height: 40vh;
+}
+#mensaje #exampleFormControlTextarea1 {
+  height: 80%;
+}
+
+#submit {
+  border-radius: 15px;
+  margin-bottom: 2vh;
+  color: white;
+}
+
+#text {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
 }
 
 /*# sourceMappingURL=estilo.css.map */
