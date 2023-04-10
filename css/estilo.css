@@ -229,11 +229,11 @@ h2:hover {
   width: 100%;
 }
 .card_container .card {
-  height: 35em;
+  height: 30em;
   width: auto;
 }
 .card_container .card img {
-  height: 70%;
+  height: 60%;
 }
 .card_container .card h2 {
   text-align: center;
