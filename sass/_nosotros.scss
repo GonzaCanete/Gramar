@@ -1,5 +1,7 @@
 .nosotros {
     background-color: rgb(128, 194, 30);
+    border-radius: 15px;
+    width: 100vw;
     height: 20vh;
     display: flex;
     align-items: center;
@@ -30,8 +32,8 @@
 }
 
 .animation_container {
-    width: 100%;
-    background-color: rgb(128, 194, 30);
+    width: 96%;
+    // background-color: rgb(128, 194, 30);
     display: flex;
     justify-content: center;
     align-items: center;
