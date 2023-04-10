@@ -12,6 +12,11 @@ header {
 
 #nav {
   height: 17vh;
+  background-image: linear-gradient(rgba(0, 128, 0, 0.387), rgba(94, 255, 0, 0.461));
+}
+
+body {
+  background-image: radial-gradient(rgba(0, 128, 0, 0.397), rgba(94, 255, 0, 0.391));
 }
 
 .container-fluid {
@@ -38,6 +43,7 @@ header {
 #navbarNav #nav_link {
   margin-right: 2vw;
   font-size: 30px;
+  font-weight: 600;
   text-decoration: underline 1px solid green;
   font-family: "Roboto", sans-serif;
 }
@@ -126,7 +132,7 @@ section {
   font-size: 20px;
   margin: auto;
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .contact {
@@ -161,7 +167,7 @@ section {
 }
 .contact_container .left_contact h2 {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 60px;
   margin-bottom: 20px;
   text-decoration: underline 1px solid green;
