@@ -252,8 +252,12 @@ h2:hover {
 
 .footer_container {
   margin-top: 10vh;
+  height: auto;
   height: 10em;
   background-color: rgb(54, 54, 54);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .footer_container h3 {
   margin-top: 3vh;
@@ -277,6 +281,18 @@ h2:hover {
 .footer_container #icon {
   width: 40px;
   height: 40px;
+}
+.footer_container .img_footer img {
+  width: 10rem;
+  border-radius: 90px;
+  margin: auto;
+}
+.footer_container .slogan h3 {
+  font-size: 20px;
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
 }
 
 #row {
