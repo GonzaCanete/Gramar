@@ -193,6 +193,13 @@ button a {
   font-family: "Roboto", sans-serif;
 }
 
+h1 {
+  font-family: "Roboto";
+  padding: 2%;
+  font-size: 50px;
+  text-decoration: underline 3px solid green;
+}
+
 h2 {
   text-align: center;
   font-family: "Roboto", sans-serif;
@@ -249,7 +256,6 @@ h2:hover {
 
 .footer_container {
   margin-top: 10vh;
-  height: auto;
   height: 10em;
   background-color: rgb(54, 54, 54);
   display: flex;
