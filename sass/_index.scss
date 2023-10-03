@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 header {
     border-bottom: 5px solid green;
     position: sticky;
@@ -72,7 +73,7 @@ header {
     width: 20%;
 }
 section {
-    margin-top: 15vh;
+    margin-top: 1vh;
 }
 
 .info {
@@ -137,7 +138,7 @@ section {
     border-radius: 15px;
 }
 .contact_container {
-    margin-top: 5vh;
+    margin-top: 1vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -209,6 +210,7 @@ h2:hover {
     text-decoration: underline 3px solid green;
 }
 .contact {
+    margin-top: 100px;
     width: 90vw;
 }
 #animation {
@@ -440,14 +442,16 @@ $color : #088003;
         display: none;
     }
     header{
-        height: 10.2vh;
+        height: 13.2vh;
         margin-bottom: -10vh;
     }
     #nav{
-        height: 10vh;
+        height: 13vh;
         img{
             width: 45vw;
             margin: auto;
+            margin-top: -5px;
+            height: 11vh;
         }
     }
     .nav-item{
@@ -473,13 +477,23 @@ $color : #088003;
         align-items: center;
         
     }
+
     .contact_container{
         display: block;
         .right_contact{
             display: none;
         }
     }
+
     footer{
-        display: none;
+        img{
+            display: none;
+        }
+        
     }
+
+    body{
+        overflow-x: hidden;
+    }
+    
 }

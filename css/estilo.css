@@ -69,7 +69,7 @@ header {
 }
 
 section {
-  margin-top: 15vh;
+  margin-top: 1vh;
 }
 
 .info {
@@ -135,7 +135,7 @@ section {
 }
 
 .contact_container {
-  margin-top: 5vh;
+  margin-top: 1vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -207,6 +207,7 @@ h2:hover {
 }
 
 .contact {
+  margin-top: 100px;
   width: 90vw;
 }
 
@@ -407,15 +408,17 @@ h2:hover {
     display: none;
   }
   header {
-    height: 10.2vh;
+    height: 13.2vh;
     margin-bottom: -10vh;
   }
   #nav {
-    height: 10vh;
+    height: 13vh;
   }
   #nav img {
     width: 45vw;
     margin: auto;
+    margin-top: -5px;
+    height: 11vh;
   }
   .nav-item {
     display: none;
@@ -442,8 +445,11 @@ h2:hover {
   .contact_container .right_contact {
     display: none;
   }
-  footer {
+  footer img {
     display: none;
+  }
+  body {
+    overflow-x: hidden;
   }
 }
 #row {
