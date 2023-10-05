@@ -16,6 +16,11 @@ header {
   background-image: linear-gradient(rgba(0, 128, 0, 0.387), rgba(94, 255, 0, 0.461));
 }
 
+.portfolio-experiment {
+  width: 100%;
+  margin-top: 5vh;
+}
+
 .container-fluid img {
   margin-left: 15vw;
   width: 20vw;
@@ -219,6 +224,20 @@ h2:hover {
   width: 90%;
 }
 
+.arr {
+  font-size: 23px;
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(rgba(0, 128, 0, 0.387), rgba(94, 255, 0, 0.461));
+  height: 45px;
+  color: black;
+  font-weight: 500;
+  font-style: italic;
+  border-bottom: solid 2px green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card_container {
   display: flex;
   justify-content: space-evenly;
@@ -420,8 +439,15 @@ h2:hover {
     margin-top: -5px;
     height: 11vh;
   }
+  .data_container {
+    width: 100%;
+  }
   .nav-item {
     display: none;
+  }
+  .portfolio-experiment {
+    width: 100%;
+    margin-top: 5vh;
   }
   .navbar-toggler {
     display: none;
@@ -450,6 +476,9 @@ h2:hover {
   }
   body {
     overflow-x: hidden;
+  }
+  .info_animation_container {
+    width: 100vw;
   }
 }
 #row {
